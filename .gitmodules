@@ -1,0 +1,6 @@
+[submodule "e-commerce-front-end-mern"]
+	path = e-commerce-front-end-mern
+	url = https://github.com/cnourrcier/e-commerce-front-end-mern.git
+[submodule "e-commerce-server-mern"]
+	path = e-commerce-server-mern
+	url = https://github.com/cnourrcier/e-commerce-server-mern.git
