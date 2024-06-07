@@ -17,4 +17,4 @@ cd e-commerce-server-mern
 npm install
 
 # Start the backend server
-npm run server
+npm run start
