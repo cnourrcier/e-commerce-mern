@@ -2,8 +2,8 @@
 
 This is a full-stack e-commerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-[Project Demo](https://e-commerce-mern-fju7.onrender.com)
-[Portfolio](https://charlie-nourrcier-dev-portfolio.onrender.com)
+- [Project Demo](https://e-commerce-mern-fju7.onrender.com)
+- [Portfolio](https://charlie-nourrcier-dev-portfolio.onrender.com)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -132,52 +132,41 @@ npm run start
 ## API Endpoints
 
 ### Authentication
-- POST /api/signup - Sign up a new user
-- GET /api/verify-email/:token - Verify user email
-- POST /api/resend-verification-email - Resend verification email
-- GET /api/auth-status - Get authentication status
-- POST /api/login - Login a user
-- POST /api/logout - Logout a user
-- POST /api/request-password-reset - Request password reset
-- PUT /api/reset-password/:token - Reset password
+- `POST /api/signup` - Sign up a new user
+- `GET /api/verify-email/:token` - Verify user email
+- `POST /api/resend-verification-email` - Resend verification email
+- `GET /api/auth-status` - Get authentication status
+- `POST /api/login` - Login a user
+- `POST /api/logout` - Logout a user
+- `POST /api/request-password-reset` - Request password reset
+- `PUT /api/reset-password/:token` - Reset password
 
 ### User
-- GET /api/profile - Get user profile
-- PUT /api/account/update - Update user account
-- DELETE /api/account/delete - Delete user account
+- `GET /api/profile` - Get user profile
+- `PUT /api/account/update` - Update user account
+- `DELETE /api/account/delete` - Delete user account
 
 ### Cart
-- GET /api/cart - Get cart items
-- POST /api/cart/add - Add item to cart
-- POST /api/cart/remove - Remove item from cart
-- POST /api/cart/removeAll - Remove all items from cart
+- `GET /api/cart` - Get cart items
+- `POST /api/cart/add` - Add item to cart
+- `POST /api/cart/remove` - Remove item from cart
+- `POST /api/cart/removeAll` - Remove all items from cart
 
 ### Orders
-- POST /api/orders - Create an order
-- GET /api/orders - Get user orders
-- POST /api/orders/mock-payment - Process mock payment
+- `POST /api/orders` - Create an order
+- `GET /api/orders` - Get user orders
+- `POST /api/orders/mock-payment` - Process mock payment
 
 ### Products
-- GET /api/products/categories - Get all product categories
-- GET /api/products/category/:category - Get products by category
-- GET /api/products/search - Search products
-- GET /api/products/:id - Get product by ID
+- `GET /api/products/categories` - Get all product categories
+- `GET /api/products/category/:category` - Get products by category
+- `GET /api/products/search` - Search products
+- `GET /api/products/:id` - Get product by ID
 
 ### Admin
-- GET /api/admin/user - Get all users
-- PUT /api/admin/users/:id - Update user by ID
-- DELETE /api/admin/users/:id - Delete user by ID
-
-## Testing
-
-### Testing Frameworks: 
-- Jest
-- Mocha
-
-### Running Tests:
-```
-npm test
-```
+- `GET /api/admin/user` - Get all users
+- `PUT /api/admin/users/:id` - Update user by ID
+- `DELETE /api/admin/users/:id` - Delete user by ID
 
 ## Project Structure
 
@@ -321,7 +310,7 @@ npm test
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [MIT License](LICENSE) file for details. 
 
 ## Acknowledgements
 Acknowledgements: 
