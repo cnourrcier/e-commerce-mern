@@ -1,8 +1,9 @@
 # E-commerce MERN Stack Application
 
-This is a full-stack e-commerce application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+This is a full-stack e-commerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-[Project Demo:](https://e-commerce-mern-fju7.onrender.com)
+[Project Demo](https://e-commerce-mern-fju7.onrender.com)
+[Portfolio](https://charlie-nourrcier-dev-portfolio.onrender.com)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -11,42 +12,46 @@ This is a full-stack e-commerce application built with the MERN stack (MongoDB, 
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [File Structure](#file-structure)
+- [Project Structure](#project-structure)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#licensing)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## Project Overview
 
-This project aims to create a complete, robust, and user-friendly e-commerce application for showcasing software development skills. It includes user authentication, product search, product browsing, product management, shopping cart functionality, checkout and order processing, and mock payment simulation.
+This project aims to create a complete, robust, and user-friendly e-commerce application for showcasing software development skills. It includes user authentication and authorization, data validations, product search, product browsing, product management, shopping cart functionality, checkout and order processing, and mock payment simulation.
 
 ## Features
 
 ### User Authentication and Authorization
-Sign up, login, logout
-Email verification
-Password reset
+- Sign up, login, logout
+- Email verification
+- Password reset
 
 ### User Profile Management
-View and update profile information such as name, address, password, and email
+- View and update profile information such as name, address, password, and email
 
 ### Product Search and Browse
-Search products by keyword
-Browse products by category
+- Search products by keyword
+- Browse products by category
 
 ### Shopping Cart
-Add, remove, and update items in shopping cart
+- Add, remove, and update items in shopping cart
 
 ### Checkout and Order Processing
-Review order, update shipping information
-Mock payment integration
+- Review order, update shipping information
+- Mock payment integration
 
 ### Order History
-View past orders
+- View past orders
 
 ### Admin Management
-View, update, and delete users
+- View, update, and delete users
+
+### Responsive Design
+- This app is designed for large and small screens and everything inbetween
 
 ## Tech Stack
 
@@ -62,8 +67,12 @@ View, update, and delete users
 - Express.js
 - MongoDB
 - Mongoose
-- JWT for authentication
+
+### Authentication:
+- JSON Web Tokens (JWT) for authentication
 - Bcrypt for password hashing
+
+### Email Services:
 - Nodemailer for sending emails
 
 ## Installation
@@ -170,7 +179,7 @@ npm run start
 npm test
 ```
 
-## File Structure
+## Project Structure
 
 ### Frontend: 
 
@@ -299,7 +308,7 @@ npm test
 
 ### Deployment Platform: 
 - The application is deployed using Render.
-- [Project Demo:](https://e-commerce-mern-fju7.onrender.com)
+- [Project Demo](https://e-commerce-mern-fju7.onrender.com)
 
 ## Contributing
 
@@ -325,3 +334,11 @@ Thank you:
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
+
+## Contact
+
+- Name: Charles Nourrcier
+- Email: charlienourrcier@gmail.com
+- [Portfolio](https://charlie-nourrcier-dev-portfolio.onrender.com)
+- [LinkedIn](https://www.linkedin.com/in/charlienourrcier)
+- [GitHub](https://github.com/cnourrcier)
