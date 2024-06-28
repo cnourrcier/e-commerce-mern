@@ -2,8 +2,7 @@
 
 This is a full-stack e-commerce application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-Project Demo: 
-https://e-commerce-mern-fju7.onrender.com
+[Project Demo:](https://e-commerce-mern-fju7.onrender.com)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -177,49 +176,50 @@ npm test
 
 e-commerce-front-end-mern/
 ├── public/
-│   └── home.svg
-│   └── info.svg
-│   └── log-in.svg
-│   └── lorem-lorem-1.svg
-│   └── plus-circle.svg
-│   └── search.svg
-│   └── shopping-bag.svg
+│   ├── home.svg
+│   ├── info.svg
+│   ├── log-in.svg
+│   ├── lorem-lorem-1.svg
+│   ├── plus-circle.svg
+│   ├── search.svg
+│   ├── shopping-bag.svg
 │   └── shopping-cart.svg
 ├── src/
-│   └── components/
-│       └── account/
-│       └── addToCartButton/
-│       └── admin/
-│       └── button/
-│       └── cartModalPopup/
-│       └── checkout/
-│       └── getProductCategories/
-│       └── getProductsByCategory/
-│       └── home/
-│       └── login/
-│       └── navBar/
-│       └── productCard/
-│       └── productDetails/
-│       └── products/
-│       └── profile/
-│       └── requestPasswordReset/
-│       └── resendVerificationEmail/
-│       └── resetPassword/
-│       └── search/
-│       └── shoppingCart/
-│       └── signup/
-│       └── updateUserInfo/
-│       └── verifyEmail/
-│       └── ProtectedRoute.jsx
-│   └── contexts/
-│       └── AuthContext.jsx
-│       └── ShoppingCartContext.jsx
-│   └── utils/
-│       └── format.js
-│   └── App.jsx
-│   └── index.css
-│   └── main.jsx
+│   ├── components/
+│   │   ├── account/
+│   │   ├── addToCartButton/
+│   │   ├── admin/
+│   │   ├── button/
+│   │   ├── cartModalPopup/
+│   │   ├── checkout/
+│   │   ├── getProductCategories/
+│   │   ├── getProductsByCategory/
+│   │   ├── home/
+│   │   ├── login/
+│   │   ├── navBar/
+│   │   ├── productCard/
+│   │   ├── productDetails/
+│   │   ├── products/
+│   │   ├── profile/
+│   │   ├── requestPasswordReset/
+│   │   ├── resendVerificationEmail/
+│   │   ├── resetPassword/
+│   │   ├── search/
+│   │   ├── shoppingCart/
+│   │   ├── signup/
+│   │   ├── updateUserInfo/
+│   │   ├── verifyEmail/
+│   │   └── ProtectedRoute.jsx
+│   ├── contexts/
+│   │   ├── AuthContext.jsx
+│   │   └── ShoppingCartContext.jsx
+│   ├── utils/
+│   │   └── format.js
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
 │   └── index.html
+
 
 ### Backend: 
 
@@ -227,37 +227,38 @@ e-commerce-server-mern/
 ├── config/
 │   └── db.js
 ├── controllers/
-│   └── adminController.js
-│   └── authController.js
-│   └── cartController.js
-│   └── orderController.js
-│   └── productController.js
+│   ├── adminController.js
+│   ├── authController.js
+│   ├── cartController.js
+│   ├── orderController.js
+│   ├── productController.js
 │   └── userController.js
 ├── middleware/
-│   └── authMiddleware.js
+│   ├── authMiddleware.js
 │   └── rateLimiter.js
 ├── models/
-│   └── cartModel.js
-│   └── orderModel.js
-│   └── productModel.js
+│   ├── cartModel.js
+│   ├── orderModel.js
+│   ├── productModel.js
 │   └── userModel.js
 ├── routes/
-│   └── adminRoutes.js
-│   └── authRoutes.js
-│   └── cartRoutes.js
-│   └── orderRoutes.js
-│   └── productRoutes.js
+│   ├── adminRoutes.js
+│   ├── authRoutes.js
+│   ├── cartRoutes.js
+│   ├── orderRoutes.js
+│   ├── productRoutes.js
 │   └── userRoutes.js
 ├── utils/
-│   └── passwordValidator.js
+│   ├── passwordValidator.js
 │   └── sendEmail.js
 ├── server.js
+
 
 ## Deployment
 
 ### Deployment Platform: 
 - The application is deployed using Render.
-- Project Demo: https://e-commerce-mern-fju7.onrender.com
+- [Project Demo:](https://e-commerce-mern-fju7.onrender.com)
 
 ## Contributing
 
