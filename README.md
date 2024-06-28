@@ -174,84 +174,125 @@ npm test
 
 ### Frontend: 
 
-e-commerce-front-end-mern/
-├── public/
-│   ├── home.svg
-│   ├── info.svg
-│   ├── log-in.svg
-│   ├── lorem-lorem-1.svg
-│   ├── plus-circle.svg
-│   ├── search.svg
-│   ├── shopping-bag.svg
-│   └── shopping-cart.svg
-├── src/
-│   ├── components/
-│   │   ├── account/
-│   │   ├── addToCartButton/
-│   │   ├── admin/
-│   │   ├── button/
-│   │   ├── cartModalPopup/
-│   │   ├── checkout/
-│   │   ├── getProductCategories/
-│   │   ├── getProductsByCategory/
-│   │   ├── home/
-│   │   ├── login/
-│   │   ├── navBar/
-│   │   ├── productCard/
-│   │   ├── productDetails/
-│   │   ├── products/
-│   │   ├── profile/
-│   │   ├── requestPasswordReset/
-│   │   ├── resendVerificationEmail/
-│   │   ├── resetPassword/
-│   │   ├── search/
-│   │   ├── shoppingCart/
-│   │   ├── signup/
-│   │   ├── updateUserInfo/
-│   │   ├── verifyEmail/
-│   │   └── ProtectedRoute.jsx
-│   ├── contexts/
-│   │   ├── AuthContext.jsx
-│   │   └── ShoppingCartContext.jsx
-│   ├── utils/
-│   │   └── format.js
-│   ├── App.jsx
-│   ├── index.css
-│   ├── main.jsx
-│   └── index.html
+<details>
+<summary>e-commerce-front-end-mern</summary>
+<ul>
+  <li>public
+    <ul>
+      <li>home.svg</li>
+      <li>info.svg</li>
+      <li>log-in.svg</li>
+      <li>lorem-lorem-1.svg</li>
+      <li>plus-circle.svg</li>
+      <li>search.svg</li>
+      <li>shopping-bag.svg</li>
+      <li>shopping-cart.svg</li>
+    </ul>
+  </li>
+  <li>src
+    <ul>
+      <li>components
+        <ul>
+          <li>account</li>
+          <li>addToCartButton</li>
+          <li>admin</li>
+          <li>button</li>
+          <li>cartModalPopup</li>
+          <li>checkout</li>
+          <li>getProductCategories</li>
+          <li>getProductsByCategory</li>
+          <li>home</li>
+          <li>login</li>
+          <li>navBar</li>
+          <li>productCard</li>
+          <li>productDetails</li>
+          <li>products</li>
+          <li>profile</li>
+          <li>requestPasswordReset</li>
+          <li>resendVerificationEmail</li>
+          <li>resetPassword</li>
+          <li>search</li>
+          <li>shoppingCart</li>
+          <li>signup</li>
+          <li>updateUserInfo</li>
+          <li>verifyEmail</li>
+          <li>ProtectedRoute.jsx</li>
+        </ul>
+      </li>
+      <li>contexts
+        <ul>
+          <li>AuthContext.jsx</li>
+          <li>ShoppingCartContext.jsx</li>
+        </ul>
+      </li>
+      <li>utils
+        <ul>
+          <li>format.js</li>
+        </ul>
+      </li>
+      <li>App.jsx</li>
+      <li>index.css</li>
+      <li>main.jsx</li>
+      <li>index.html</li>
+    </ul>
+  </li>
+</ul>
+</details>
 
 
 ### Backend: 
 
-e-commerce-server-mern/
-├── config/
-│   └── db.js
-├── controllers/
-│   ├── adminController.js
-│   ├── authController.js
-│   ├── cartController.js
-│   ├── orderController.js
-│   ├── productController.js
-│   └── userController.js
-├── middleware/
-│   ├── authMiddleware.js
-│   └── rateLimiter.js
-├── models/
-│   ├── cartModel.js
-│   ├── orderModel.js
-│   ├── productModel.js
-│   └── userModel.js
-├── routes/
-│   ├── adminRoutes.js
-│   ├── authRoutes.js
-│   ├── cartRoutes.js
-│   ├── orderRoutes.js
-│   ├── productRoutes.js
-│   └── userRoutes.js
-├── utils/
-│   ├── passwordValidator.js
-│   └── sendEmail.js
-├── server.js
+<details>
+<summary>e-commerce-server-mern</summary>
+<ul>
+  <li>config
+    <ul>
+      <li>db.js</li>
+    </ul>
+  </li>
+  <li>controllers
+    <ul>
+      <li>adminController.js</li>
+      <li>authController.js</li>
+      <li>cartController.js</li>
+      <li>orderController.js</li>
+      <li>productController.js</li>
+      <li>userController.js</li>
+    </ul>
+  </li>
+  <li>middleware
+    <ul>
+      <li>authMiddleware.js</li>
+      <li>rateLimiter.js</li>
+    </ul>
+  </li>
+  <li>models
+    <ul>
+      <li>cartModel.js</li>
+      <li>orderModel.js</li>
+      <li>productModel.js</li>
+      <li>userModel.js</li>
+    </ul>
+  </li>
+  <li>routes
+    <ul>
+      <li>adminRoutes.js</li>
+      <li>authRoutes.js</li>
+      <li>cartRoutes.js</li>
+      <li>orderRoutes.js</li>
+      <li>productRoutes.js</li>
+      <li>userRoutes.js</li>
+    </ul>
+  </li>
+  <li>utils
+    <ul>
+      <li>passwordValidator.js</li>
+      <li>sendEmail.js</li>
+    </ul>
+  </li>
+  <li>server.js</li>
+</ul>
+</details>
 
 
 ## Deployment
