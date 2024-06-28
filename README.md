@@ -5,6 +5,8 @@ This is a full-stack e-commerce web application built with the MERN stack (Mongo
 - [Project Demo](https://e-commerce-mern-fju7.onrender.com)
 - [Portfolio](https://charlie-nourrcier-dev-portfolio.onrender.com)
 
+![Project Demo](https://res.cloudinary.com/dwguf4w1t/image/upload/v1719608700/Portfolio%20Projects/e-commerce-demo_e18wss.gif)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
