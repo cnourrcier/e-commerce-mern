@@ -112,7 +112,7 @@ EMAIL_PORT=<Your Email Port>
 FRONTEND_URL_DEV=http://localhost:5173
 ```
 
-*Note: I currently use mailtrap.io to simulate and test my email functionality. It is a great solution for sending and receiving emails to different addesses that go to one inbox. For this service I recommend using port 2525 as some of the other ports I've tried are blocked.
+*Note for running in development mode: I currently use mailtrap.io to simulate and test my email functionality. It is a great solution for sending and receiving emails to different addesses that go to one inbox. For this service I recommend using port 2525 as some of the other ports I've tried are blocked.
 
 ## Usage
 
