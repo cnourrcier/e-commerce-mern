@@ -104,12 +104,15 @@ PORT=5000
 MONGO_URI=<Your MongoDB URI>
 JWT_SECRET=<Your JWT Secret>
 LOGIN_EXPIRES=<Login Expiration Time>
-EMAIL_SERVICE=<Your Email Service>
-EMAIL_USER=<Your Email User>
-EMAIL_PASSWORD=<Your Email Password>
-EMAIL_HOST=<Your Email Host>
+DEV_EMAIL_USER=<Your Email User (For development only)>
+DEV_EMAIL_PASSWORD=<Your Email Password (For development only)>
+DEV_EMAIL_HOST=<Your Email Host (For development only)>
+PROD_EMAIL_USER=<Your Email User (For production only)>
+PROD_EMAIL_PASSWORD=<Your Email Password (For production only)>
+PROD_EMAIL_HOST=<Your Email Host (For production only)>
 EMAIL_PORT=<Your Email Port>
 FRONTEND_URL_DEV=http://localhost:5173
+PROD_URL=cardinalfinds.com
 ```
 
 *Note for running in development mode: I currently use mailtrap.io to simulate and test my email functionality. It is a great solution for sending and receiving emails to different addesses that go to one inbox. For this service I recommend using port 2525 as some of the other ports I've tried are blocked.
