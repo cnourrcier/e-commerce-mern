@@ -3,8 +3,9 @@
 This is a full-stack e-commerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
 [View Demo](https://e-commerce-mern-fju7.onrender.com)
+![E-commerce Demo GIF](https://res.cloudinary.com/dwguf4w1t/image/upload/v1719608700/Portfolio%20Projects/e-commerce-demo_e18wss.gif)
 
-## Tech Stack
+
 ## Tech Stack
 
 ### Frontend
@@ -20,9 +21,6 @@ This is a full-stack e-commerce web application built with the MERN stack (Mongo
 ![EXPRESS](https://img.shields.io/badge/express-white?style=for-the-badge&logo=express&logoColor=black)
 ![MONGODB](https://img.shields.io/badge/mongodb-white?style=for-the-badge&logo=mongodb)
 ![MONGOOSE](https://img.shields.io/badge/mongoose-white?style=for-the-badge&logo=mongoose&logoColor=red)
-
-
-![Project Demo](https://res.cloudinary.com/dwguf4w1t/image/upload/v1719608700/Portfolio%20Projects/e-commerce-demo_e18wss.gif)
 
 
 ## Project Overview
