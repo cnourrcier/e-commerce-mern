@@ -3,8 +3,6 @@
 This is a full-stack e-commerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
 [View Demo](https://e-commerce-mern-fju7.onrender.com)
-![E-commerce Demo GIF](https://res.cloudinary.com/dwguf4w1t/image/upload/v1719608700/Portfolio%20Projects/e-commerce-demo_e18wss.gif)
-
 
 ## Tech Stack
 
@@ -26,6 +24,8 @@ This is a full-stack e-commerce web application built with the MERN stack (Mongo
 ## Project Overview
 
 This project aims to create a complete, robust, and user-friendly e-commerce application for showcasing software development skills. It includes user authentication and authorization, data validations, product search, product browsing, product management, shopping cart functionality, checkout and order processing, and mock payment simulation.
+
+![E-commerce Demo GIF](https://res.cloudinary.com/dwguf4w1t/image/upload/v1719608700/Portfolio%20Projects/e-commerce-demo_e18wss.gif)
 
 ## Features
 
